@@ -1,0 +1,18 @@
+{
+    "apiKey": "1zRxWrTvpQuo",
+    "grids": {
+        "posts": {
+            "view": "lz4hZC4rRk",
+            "folder": "content",
+            "columns": {
+                "postID": "column1",
+                "coverImage": "column2",
+                "title": "column3",
+                "description": "column4",
+                "author": "column5",
+                "content": "column7",
+                "tags": "column6"
+            }
+        }
+    }
+}

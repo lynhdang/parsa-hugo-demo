@@ -1,0 +1,32 @@
+{
+    "name": "grildy-hugo-blog",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "lint-staged": {
+        "layouts/**/*.{html}": [
+            "prettier --write --tab-width 4",
+            "git add"
+        ],
+        "src/**/*.{scss,js}": [
+            "prettier --write --tab-width 4",
+            "git add"
+        ]
+    },
+    "scripts": {
+        "precommit": "lint-staged",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gulp; hugo;",
+        "start": "gulp; hugo server -D;"
+    },
+    "keywords": [],
+    "author": "LocalizeDirect",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "gridly-client-js": "git+https://bitbucket.org/localizedirect/gridly-client-js/src/master/",
+        "gulp": "^4.0.2",
+        "lint-staged": "^4.2.3",
+        "postcss-cli": "^6.1.3"
+    }
+}
