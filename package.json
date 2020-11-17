@@ -16,7 +16,7 @@
     "scripts": {
         "precommit": "lint-staged",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "gulp; hugo;",
+        "build": "gulp; cd exampleSite && hugo --gc --themesDir ../..",
         "start": "gulp; hugo server -D;"
     },
     "keywords": [],

@@ -3,7 +3,7 @@
     "grids": {
         "posts": {
             "view": "lz4hZC4rRk",
-            "folder": "content",
+            "folder": "exampleSite/content",
             "columns": {
                 "postID": "column1",
                 "coverImage": "column2",
